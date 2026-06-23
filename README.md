@@ -5,6 +5,8 @@
 [![Latency](https://img.shields.io/badge/latency-<5ms-orange.svg)]()
 [![Version](https://img.shields.io/badge/version-0.1.0_Beta-purple.svg)]()
 
+![Cascade Observability Dashboard](cascade-dashboard.png)
+
 **Predictive Multi-Model AI Routing Infrastructure.**
 
 Cascade is a high-performance, bare-metal C++ proxy that intercepts OpenAI SDK traffic and dynamically routes prompts to the most cost-effective model (e.g., `gpt-4o-mini` vs `gpt-4o`). Powered by a highly distilled local embedding classifier, Cascade reduces enterprise LLM inference bills by up to **75%** while introducing **less than 5ms** of latency.
